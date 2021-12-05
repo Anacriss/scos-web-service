@@ -20,7 +20,7 @@ import xyz.cablemas.scoswebservice.service.SedeService;
 @AllArgsConstructor
 public class SedeController {
 	
-	private final SedeService sedeService;
+	private  SedeService sedeService;
 	
 	
 	@GetMapping("/listar")

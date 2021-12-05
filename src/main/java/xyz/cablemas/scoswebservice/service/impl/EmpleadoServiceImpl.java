@@ -14,7 +14,7 @@ import xyz.cablemas.scoswebservice.service.EmpleadoService;
 @AllArgsConstructor
 public class EmpleadoServiceImpl implements EmpleadoService {
 
-	private final EmpleadoRepository empleadoRepository;
+	private  EmpleadoRepository empleadoRepository;
 
 	@Override
 	@Transactional
